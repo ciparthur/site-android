@@ -1,2 +1,1 @@
-# site-android
- Site sobre Android
+# Site Android para o curso de HTML5 e CSS3 do Estudonauta
