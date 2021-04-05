@@ -2,13 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face {
     font-family: 'iDroid';
-    src: url('_fonts/idroid.otf') format('opentype');
+    src: url('../_fonts/idroid.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 * {
     margin: 0px;
+    font-size: 16px;
 }
 
 :root {
@@ -72,18 +73,53 @@ main {
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.342);
 }
 
+strong {
+    font-family: var(--fonte0);
+    color: var(--cor3);
+}
+
+a {
+    background-color: var(--cor1);
+    color: var(--cor5);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.titulo {
+    font-family: var(--fonte2);
+    font-size: 1.2em;
+    color: var(--cor4);
+    background-image: linear-gradient(to right, var(--cor1), var(--cor0), white);
+    padding: 3px;
+}
+
 article {
     color: black;
 }
 
+div {
+    background-color: var(--cor5);
+    padding: 25px;
+    margin-bottom: 10px;
+}
+
+article > h1 {
+    font-family: var(--fonte2);
+    font-size: 1.5em;
+    color: var(--cor5);
+}
+
 aside {
-    background-color: var(--cor3);
+    background-color: var(--cor1);
     padding: 10px;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.336);
+    border-radius: 15px;
 }
 
 aside > h1 {
-    padding: 20px;
+    padding: 15px;
+    color: white;
     background-color: var(--cor4);
 }
 
