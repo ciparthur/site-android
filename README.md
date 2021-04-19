@@ -1,1 +1,1 @@
-# Site Android para o curso de HTML5 e CSS3 do Estudonauta
+# Site Android feito em HTML5 e CSS3
